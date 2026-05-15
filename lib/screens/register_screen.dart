@@ -165,7 +165,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           label('Email'),
                           normalField(
                             controller: emailController,
-                            hint: 'example@gmail.com',
+                            hint: 'name@gmail.com',
                             keyboard: TextInputType.emailAddress,
                             validator: (value) {
                               final email = value!.trim();
@@ -175,7 +175,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                               }
 
                               if (!AuthService.isValidEmail(email)) {
-                                return 'Enter a valid email address';
+                                return ' valid email address';
                               }
 
                               return null;
@@ -348,7 +348,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
       decoration: const InputDecoration(
         prefixText: '+968 ',
         counterText: '',
-        hintText: '91234567',
+        
         filled: true,
         fillColor: Colors.white,
         contentPadding: EdgeInsets.symmetric(
