@@ -1,0 +1,66 @@
+# Gradle
+
+.gradle/
+
+/gradlew
+
+/gradlew.bat
+
+/local.properties
+
+/captures/
+
+# Flutter & Dart
+
+.dart_tool/
+
+.packages
+
+.pub/
+
+build/
+
+# Android Studio / IntelliJ
+
+.idea/
+
+# Flutter generated
+
+GeneratedPluginRegistrant.java
+
+.flutter-plugins
+
+.flutter-plugins-dependencies
+
+.metadata
+
+# VS Code
+
+.vscode/
+
+# macOS
+
+.DS_Store
+
+# Logs
+
+*.log
+
+# APK / App Bundle
+
+*.apk
+
+*.aab
+
+# Keystore files (Never upload)
+
+key.properties
+
+**/*.keystore
+
+**/*.jks
+
+# Keep Gradle Wrapper JAR tracked
+
+!gradle/wrapper/gradle-wrapper.jar
+ 
